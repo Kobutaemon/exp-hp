@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 350;
+    color: #373737;
+    padding: 0;
+    margin: 0;
+}
+
+.page1, .page2, .page3 {
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin: 20px;
+}
+
+.list ul li {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.header-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* ここまでpage1 */
+/* ここからpage2 */
+
+.page2 {
+    text-align: center;
+}
+
+.page2 p {
+    font-size: 36px;
+    margin: 150px 0;
+}
+
+/* ここまでpage2 */
+/* ここからpage3 */
+
