@@ -52,78 +52,29 @@ header {
 
 /* ここまでheader、コピペでheader完成する */
 
-.header-container {
-    height: 90%;
+main h1 {
+    font-size: 55px;
+    margin: 20px 0px 0px 40px;
 }
 
-.header-container h1{
-    color: #373737;
-    font-size: 50px;
+.table {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5%;
 }
 
-.header-container .slide-show {
-    width: 100%;
-    height: 400px;
-    background-color: #9fc2e0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+.table img{
+    width: 70%;
 }
 
-.header-container .slide-show p {
-    color: white;
+/* main table {
+    margin: 50px auto;
 }
 
-/* ここまでpage1 */
-/* ここからpage2 */
-
-.page2 {
-    text-align: center;
+main table th, main table td {
+    font-size: 40px;
+    border-bottom: 3px solid #373737;
 }
 
-.page2 .intro-sen {
-    display: inline-block;
+main table th {
     text-align: left;
-}
-
-.page2 .intro-sen p {
-    font-size: 36px;
-    margin: 150px 0;
-}
-
-.slide-show p {
-    color: white;
-    font-size: 50px;
-}
-
-/* ここまでpage2 */
-/* ここからpage3 */
-
-footer {
-    display: flex;
-    justify-content: center;
-}
-
-footer p {
-    padding: 20px 10px;
-}
-
-footer a {
-    text-decoration: none;
-}
-
-.sns {
-    transition: all 0.2s ease;
-    cursor: pointer;
-}
-
-.sns-twitter:hover {
-    color: rgb(48, 177, 212);
-}
-
-.sns-instagram:hover {
-    color: #ce4cb8;
-}
+} */
