@@ -76,6 +76,8 @@ header {
 
 .archive h2 {
     font-size: 70px;
+    display: inline;
+    background: linear-gradient(to bottom, transparent 70%,#9fc2e0 50%, transparent 90%);
 }
 
 .archive h3 {
