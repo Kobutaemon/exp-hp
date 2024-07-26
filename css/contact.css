@@ -53,9 +53,20 @@ header {
 /* ここまでheader、コピペでheader完成する */
 
 .contact {
-    width: 500px;
-    height: 500px;
-    background-color: #373737;
+    width: 400px;
+    height: 400px;
     display: flex;
     flex-direction: column;
+    border: 2px solid #000000;
+    box-shadow: 15px 15px 0px -5px #000000;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+
+.url {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
 }
