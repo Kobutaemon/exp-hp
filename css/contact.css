@@ -71,11 +71,7 @@ main {
 
 .intro span {
     background: linear-gradient(transparent 65%, #9fc2e0 65%, #9fc2e0 90%, transparent 90%);
-}
-
-.intro span:nth-child(2) {
-    color: red;
-    /* nth-child()が効かないから原因究明中 */
+    font-size: 90%;
 }
 
 .url {
