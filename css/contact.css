@@ -52,6 +52,11 @@ header {
 
 /* ここまでheader、コピペでheader完成する */
 
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
 .contact {
     width: 400px;
     height: 400px;
@@ -62,6 +67,14 @@ header {
     justify-content: space-evenly;
     align-items: center;
     font-size: 25px;
+}
+
+.intro span {
+    background: linear-gradient(transparent 65%, #9fc2e0 65%, #9fc2e0 90%, transparent 90%);
+}
+
+.intro span:nth-child(2) {
+    color: red;
 }
 
 .url {

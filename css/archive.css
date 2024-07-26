@@ -77,7 +77,9 @@ header {
 .archive h2 {
     font-size: 70px;
     display: inline;
-    background: linear-gradient(transparent 75%, #9fc2e0 0%);
+    background: linear-gradient(transparent 65%, #9fc2e0 65%, #9fc2e0 90%, transparent 90%);
+    /* linear-gradientは、最初の色指定のみ、終了場所を示し、それ以降の色指定は開始位置を示す(考察なので不確定)*/
+    
 }
 
 .archive h3 {
