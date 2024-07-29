@@ -105,6 +105,7 @@ header {
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 footer p {
@@ -113,11 +114,13 @@ footer p {
 
 footer a {
     text-decoration: none;
+    margin: 0px 20px;
 }
 
 .sns {
     transition: all 0.2s ease;
     cursor: pointer;
+    font-size: 30px;
 }
 
 .sns-twitter:hover {
