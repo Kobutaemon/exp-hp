@@ -78,3 +78,32 @@ main table th, main table td {
 main table th {
     text-align: left;
 } */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    padding: 20px 10px;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+.sns {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.sns-twitter:hover {
+    color: rgb(48, 177, 212);
+}
+
+.sns-instagram:hover {
+    color: #ce4cb8;
+}
