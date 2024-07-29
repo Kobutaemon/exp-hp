@@ -22,8 +22,9 @@
         </div>
     </header>
     
+    <h1>お問い合わせ</h1>
+
     <main>
-        <h1>お問い合わせ</h1>
         <div class="contact">
             <div class="intro">
                 <span>
@@ -31,7 +32,7 @@
                     入部希望者向け
                 </span>
             </div>
-            <div class="url">
+            <div class="url" onclick="applicant_form()">
                 <div class="url-p">
                     <p>フォームはこちら</p>
                 </div>
@@ -41,7 +42,8 @@
             </div>
         </div>
 
-        <div class="contact">
+
+        <div class="contact" onclick="contact_form()">
             <div class="intro">
                 <span>
                     プログラミング教室開催のご依頼<br>
@@ -58,5 +60,7 @@
             </div>
         </div>
     </main>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
