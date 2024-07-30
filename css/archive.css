@@ -146,12 +146,12 @@ footer a {
 
 .slideshow1 {
     display: flex;
-    animation: loop-slide-left 30s infinite linear 1s both;
+    animation: loop-slide-left 45s infinite linear 1s both;
 }
 
 .slideshow2 {
     display: flex;
-    animation: loop-slide-right 30s infinite linear 1s both;
+    animation: loop-slide-right 45s infinite linear 1s both;
 }
 
 .slideshow1 li, .slideshow2 li {
