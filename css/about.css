@@ -57,27 +57,23 @@ main h1 {
     margin: 20px 0px 0px 40px;
 }
 
-.table {
-    text-align: center;
-    margin-top: 5%;
-}
-
-.table img{
-    width: 70%;
-}
-
-/* main table {
+main table {
+    width: 60%;
     margin: 50px auto;
-}
-
-main table th, main table td {
     font-size: 40px;
-    border-bottom: 3px solid #373737;
+    border-collapse: collapse;
 }
 
-main table th {
+main th, main td {
     text-align: left;
-} */
+    border-bottom: 2px solid #373737;
+    line-height: 2.5;
+}
+
+main table .exp {
+    text-align: center;
+    background: linear-gradient(transparent 55%, #9fc2e0 55%, #9fc2e0 75%, transparent 75%);
+}
 
 footer {
     display: flex;
@@ -107,3 +103,18 @@ footer a {
 .sns-instagram:hover {
     color: #ce4cb8;
 }
+
+/* 以下タブレット用CSS */
+
+@media screen and (max-width: 959px) {
+    
+}
+
+/* ここまでタブレット用CSS */
+/* 以下スマホ用CSS */
+
+@media screen and (max-width: 480px) {
+
+}
+
+/* ここまでスマホ用CSS */
