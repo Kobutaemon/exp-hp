@@ -57,11 +57,20 @@ main h1 {
     margin: 20px 0px 0px 40px;
 }
 
-main table {
+/* main table {
     width: 60%;
     margin: 50px auto;
     font-size: 40px;
     border-collapse: collapse;
+} */
+
+main .table-img {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main .table-img img {
+    width: 80%;
 }
 
 main th, main td {
@@ -104,16 +113,9 @@ footer a {
     color: #ce4cb8;
 }
 
-/* 以下タブレット用CSS */
-
-@media screen and (max-width: 959px) {
-    
-}
-
-/* ここまでタブレット用CSS */
 /* 以下スマホ用CSS */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 428px) {
 
 }
 
