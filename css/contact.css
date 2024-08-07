@@ -135,3 +135,11 @@ footer a {
 .sns-instagram:hover {
     color: #ce4cb8;
 }
+
+/* 以下スマホ用CSS */
+
+@media screen and (max-width: 428px) {
+
+}
+
+/* ここまでスマホ用CSS */

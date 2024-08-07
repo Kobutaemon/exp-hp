@@ -174,23 +174,20 @@ footer a {
     }
 }
 
-/* 以下タブレット用CSS */
-
-@media screen and (max-width: 959px) {
-    .page1 .header-container h1 {
-        font-size: 40px;
-    }
-
-    .page2 .intro-sen p{
-        font-size: 27px;
-    }
-}
-
-/* ここまでタブレット用CSS */
 /* 以下スマホ用CSS */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 428px) {
+    .page1 .header-container h1 {
+        font-size: 30px;
+    }
 
+    .page2 .intro-sen p {
+        font-size: 20px;
+    }
+
+    .list {
+        display: none;
+    }
 }
 
 /* ここまでスマホ用CSS */

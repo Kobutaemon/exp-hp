@@ -182,3 +182,11 @@ footer a {
         transform: translateX(0);
     }
 }
+
+/* 以下スマホ用CSS */
+
+@media screen and (max-width: 428px) {
+
+}
+
+/* ここまでスマホ用CSS */
