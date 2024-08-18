@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     user-select: none;
+    box-sizing: border-box;
 }
 
 /* ここからpage1 */
@@ -34,11 +35,15 @@ header {
     opacity: 0.5;
 }
 
-.list ul a {
+.hamburger-list {
+    display: none;
+}
+
+.list ul a, .hamburger-list ul a {
     text-decoration: none;
 }
 
-.list ul li {
+.list ul li, .hamburger-list ul li {
     font-size: 20px;
     list-style-type: none;
     display: inline-block;
@@ -47,7 +52,7 @@ header {
     transition: all 0.2s ease ;
 }
 
-.list ul li:hover {
+.list ul li:hover, .hamburger-list ul li:hover {
     opacity: 0.3;
 }
 
@@ -156,6 +161,13 @@ footer a {
     margin: 0 10px;
 }
 
+.hamburger {
+    display: none;
+    width: 15%;
+    justify-content: center;
+    cursor: pointer;
+}
+
 @keyframes loop-slide-left {
     from {
         transform: translateX(0);
@@ -176,9 +188,13 @@ footer a {
 
 /* 以下スマホ用CSS */
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
     .page1 .header-container h1 {
         font-size: 30px;
+    }
+
+    .page2 .intro-sen {
+        padding: 0 15px;
     }
 
     .page2 .intro-sen p {
@@ -187,6 +203,36 @@ footer a {
 
     .list {
         display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger-list {
+        display: flex;
+        height: 90vh;
+        width: 50%;
+        z-index: 9999;
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        background-color: white;
+        overflow-x: hidden;
+        transform: translateX(100%);
+        transition: all 0.4s ease;
+    }
+
+    .active {
+        transform: translateX(0%);
+    }
+
+    .hamburger-list ul {
+        height: 50%;
+    }
+
+    .hamburger-list ul li {
+        margin: 15%;
     }
 }
 
