@@ -222,7 +222,7 @@ footer a {
         transform: translateX(100%);
         transition: all 0.4s ease;
     }
-
+    
     .active {
         transform: translateX(0%);
     }
