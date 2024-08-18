@@ -12,7 +12,6 @@
         <div class="logo">
             <a href="index.html"><img src="./images/EXP_LOGO.png" alt="EXPサークルのロゴ"></a>
         </div>
-        <!-- ロゴはちょっとデザインに合わないのでいれるか迷い中 -->
         <div class="list">
             <ul>
                 <li><a href="about.html">サークル概要</a></li>
@@ -20,7 +19,17 @@
                 <li><a href="contact.html">お問い合わせ</a></li>
             </ul>
         </div>
+        <div class="hamburger" onclick="toggle_class()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
+    <div class="hamburger-list">
+        <ul>
+            <li><a href="about.html">サークル概要</a></li>
+            <li><a href="archive.html">案件実績</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+    </div>
     <main>
         <h1>サークル概要</h1>
         <div class="table-img">
@@ -34,6 +43,7 @@
         <p>&copy;2024 group4(仮) All right reserved</p>
     </footer>
 
+    <script src="./js/script.js"></script>
     <script src="https://kit.fontawesome.com/a4fb15752c.js" crossorigin="anonymous"></script>
 </body>
 </html>

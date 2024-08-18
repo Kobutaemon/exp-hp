@@ -34,11 +34,15 @@ header {
     opacity: 0.5;
 }
 
-.list ul a {
+.hamburger-list {
+    display: none;
+}
+
+.list ul a, .hamburger-list ul a {
     text-decoration: none;
 }
 
-.list ul li {
+.list ul li, .hamburger-list ul li {
     font-size: 20px;
     list-style-type: none;
     display: inline-block;
@@ -47,8 +51,12 @@ header {
     transition: all 0.2s ease ;
 }
 
-.list ul li:hover {
+.list ul li:hover, .hamburger-list ul li:hover {
     opacity: 0.3;
+}
+
+.hamburger {
+    display: none;
 }
 
 /* ここまでheader、コピペでheader完成する */

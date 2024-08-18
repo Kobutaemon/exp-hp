@@ -56,6 +56,10 @@ header {
     opacity: 0.3;
 }
 
+.hamburger {
+    display: none;
+}
+
 /* ここまでheader、コピペでheader完成する */
 
 .header-container {
@@ -161,12 +165,6 @@ footer a {
     margin: 0 10px;
 }
 
-.hamburger {
-    display: none;
-    width: 15%;
-    justify-content: center;
-    cursor: pointer;
-}
 
 @keyframes loop-slide-left {
     from {
@@ -207,18 +205,20 @@ footer a {
 
     .hamburger {
         display: flex;
+        width: 15%;
+        justify-content: center;
+        cursor: pointer;
     }
 
     .hamburger-list {
         display: flex;
-        height: 90vh;
+        height: 80vh;
         width: 50%;
         z-index: 9999;
         position: absolute;
         right: 0;
         flex-direction: column;
         background-color: white;
-        overflow-x: hidden;
         transform: translateX(100%);
         transition: all 0.4s ease;
     }
