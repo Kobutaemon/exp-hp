@@ -193,8 +193,57 @@ footer a {
 
 /* 以下スマホ用CSS */
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
+    .page1 .header-container h1 {
+        font-size: 30px;
+    }
 
+    .page2 .intro-sen {
+        padding: 0 15px;
+    }
+
+    .page2 .intro-sen p {
+        font-size: 20px;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        width: 15%;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .hamburger-list {
+        display: flex;
+        height: 80vh;
+        width: 50%;
+        z-index: 9999;
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        background-color: white;
+        transform: translateX(100%);
+        transition: all 0.4s ease;
+        overflow-x: hidden;
+    }
+    
+    .active {
+        transform: translateX(0%);
+    }
+
+    .hamburger-list ul {
+        height: 50%;
+    }
+
+    .hamburger-list ul li {
+        margin: 15%;
+    }
 }
+
+/* ここまでスマホ用CSS */
 
 /* ここまでスマホ用CSS */

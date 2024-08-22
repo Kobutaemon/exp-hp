@@ -102,6 +102,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: #9fc2e0; */
 }
 
 footer p {
@@ -221,6 +222,7 @@ footer a {
         background-color: white;
         transform: translateX(100%);
         transition: all 0.4s ease;
+        overflow-x: hidden;
     }
     
     .active {
