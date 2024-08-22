@@ -242,6 +242,16 @@ footer a {
     .hamburger-list ul li {
         margin: 15%;
     }
+
+    /* ここまでハンバーガーメニューのCSS */
+
+    .archive {
+        flex-direction: column;
+    }
+
+    .archive img {
+        width: 100%;
+    }
 }
 
 /* ここまでスマホ用CSS */
