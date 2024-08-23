@@ -15,12 +15,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
     top: 0;
     width: 100%;
     height: 10%;
     background-color: white;
-    z-index: 9999;
 }
 
 .logo img {
@@ -37,6 +35,7 @@ header {
 
 .hamburger-list {
     display: none;
+    opacity: 0;
 }
 
 .list ul a, .hamburger-list ul a {
@@ -49,7 +48,6 @@ header {
     display: inline-block;
     margin: 0 30px;
     cursor: pointer;
-    transition: all 0.2s ease ;
 }
 
 .list ul li:hover, .hamburger-list ul li:hover {
@@ -60,7 +58,7 @@ header {
     display: none;
 }
 
-/* ここまでheader、コピペでheader完成する */
+/* ここまでheader(ハンバーガー含む)、コピペでheader完成する */
 
 .header-container {
     height: 90%;
@@ -204,37 +202,34 @@ footer a {
         display: none;
     }
 
+    /* ハンバーガーアイコン */
     .hamburger {
         display: flex;
         width: 15%;
         justify-content: center;
         cursor: pointer;
-    }
-
-    .hamburger-list {
-        display: flex;
-        height: 80vh;
-        width: 50%;
         z-index: 9999;
-        position: absolute;
-        right: 0;
-        flex-direction: column;
-        background-color: white;
-        transform: translateX(100%);
-        transition: all 0.4s ease;
-        overflow-x: hidden;
     }
-    
+
     .active {
-        transform: translateX(0%);
+        z-index: 9999;
+        position: fixed;
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(186, 186, 186, 0.9);
+        justify-content: center;
+        opacity: 1;
+        transition: all 0.4s ease;
     }
 
-    .hamburger-list ul {
-        height: 50%;
+    .active ul li  {
+        display: flex;
+        margin: 50px 0;
     }
 
-    .hamburger-list ul li {
-        margin: 15%;
+    .blur {
+        filter: blur(8px);
     }
 }
 

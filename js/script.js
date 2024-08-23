@@ -9,4 +9,10 @@ function contact_form() {
 function toggle_class() {
     let hamburger = document.querySelector(".hamburger-list");
     hamburger.classList.toggle("active");
+
+    let page1 = document.querySelector(".page1");
+    page1.classList.toggle("blur");
+
+    // let haeder = document.querySelector("header");
+    // haeder.classList.toggle("bgc-gray");
 }

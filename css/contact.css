@@ -90,17 +90,14 @@ main {
     font-size: 25px;
     transition: all 0.2s ease;
 }
-/* 
-.contact:hover {
-    opacity: 0.6;
-} */
 
 .intro span {
     background: linear-gradient(transparent 65%, #9fc2e0 65%, #9fc2e0 90%, transparent 90%);
+    font-size: 22px;
 }
 
 .url {
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #000000;
@@ -109,7 +106,7 @@ main {
 }
 
 .url:hover {
-    width: 75%;
+    width: 65%;
 }
 
 /* ここからfooter */
@@ -209,13 +206,18 @@ footer a {
         margin: 30px 0;
     }
 
+    .intro {
+        width: 80%;
+        text-align: center;
+    }
+
     .contact .intro span {
         font-size: 15px;
         font-weight: bold;
     }
 
     .url {
-        width: 80%;
+        width: 65%;
     }
 
     footer p {
